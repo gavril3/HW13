@@ -45,3 +45,221 @@ header .header {
     font-size: 18px;
     line-height: 25px;
 }
+p.textFirstScreen{
+    margin-right: 33px;
+    margin-bottom: 25px;
+    margin-top: 22px;
+    color:#333333;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+p.textFirstScreen > span {
+    font-weight: 700;
+}
+
+.btn {
+    font-family: 'Raleway', serif;
+    background-color: #17A550;
+    border-radius: 5px;
+    border-color: #E3EBF1;
+    padding: 15px;
+    color: #ffffff;
+    border:none;
+}
+.btnGreen{
+    font-size: 15px;
+    line-height: 20px;  
+}
+
+.btnGreenSmall{
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.second {
+    padding-top: 70px;
+    background-color:var(--background-color);
+}
+
+.textBlog {
+    padding-top: 13px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-right: 40px;
+}
+.blogLeftPart {
+    width: 100%;
+    max-width: 555px;
+}
+
+.blogLeftPart h3 {
+    padding-top: 9px;
+}
+
+.card {
+    gap:15px;
+    font-size: 18px;
+    line-height: 25px
+}
+
+.card+.card {
+    padding-top: 20px;
+}
+.third{
+    padding-top: 74px;
+    background-color:var(--background-color);
+}
+
+.playButton {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 100px;
+    gap:4px;
+}
+.seeTheList {
+    background: url("../images/backgroungImage.png") no-repeat center/cover;
+    border-radius: 10px;
+    padding-right: 40px;
+}
+
+.tool {
+    padding-left:30px ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap:12px;
+    font-size: 28px;
+    line-height: 32px;
+}
+.fourth {
+    padding-top: 97px;
+    background-color:var(--background-color);
+}
+.reviewCard {
+    position: relative;
+    background-color:#F7F9FA;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 0 0 10px 10px;
+}
+.reviewText{
+ 
+    padding-top: 24px;
+    padding-left: 25px;
+    padding-bottom: 39px;   
+    padding-right: 33px;
+}
+.reviewText p{
+    padding-top: 13px;
+    font-family:'Raleway';
+}
+
+.reviewBtn{
+    position: absolute;
+    top:15px;
+    left:15px;
+    padding: 5px 10px;
+    background-color: rgba(29, 47, 56, 0.8);
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Raleway', serif;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+
+.fifth{
+    padding-top: 40px; 
+    padding-bottom: 100px;
+    background-color:var(--background-color);
+}
+.newsLetter {
+    background: url("../images/backgroungImage.png") no-repeat center/cover;
+    border-radius: 10px;
+    padding:50px;
+}
+
+.letterWhite {
+    background-color: #ffffff;
+    width: 60px;
+    height: 60px;
+    border-radius:  50%;
+    align-items: center;
+}
+
+.imageLetter {
+    margin-top: 20px;
+    gap:10px;
+}
+.textSignUp {
+    max-width: 500px;
+    margin-top: 44px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.formSignUp {
+    width: 100%;
+    max-width: 500px;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid #AABCC5;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    
+}
+::placeholder {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;;
+}
+
+.btnYellow {
+    background-color: #FFC728;
+    margin-top: 31px;
+    margin-bottom: 23px;
+    border: 0px;
+    color: #000000;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.privatePolicy {
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 10px;
+    color: #536D7A
+}
+
+footer {
+    background-color:#F7F9FA ;
+    padding-top: 59px;
+    color: var(--text-color);
+}
+
+.logo {
+    max-width:175px;
+}
+
+.socialNet a{
+    margin-top: 12px;
+    margin-bottom: 19px;
+    width: 40px;
+    height: 40px;
+}
+
+.text {
+    width: 306px;
+    margin-right: 51px;
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+p.text > span {
+       font-weight: 700;
+}
