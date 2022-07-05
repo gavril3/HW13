@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
-<body>
+<<body class="flex flex-col">
     <header>
         <div class="header">
             <div class="container">
@@ -38,6 +38,227 @@
             </div>
         </div>
     </header>
-</body>
+
+    <section class="first">
+        <div class="container">
+            <div class="firstScreen flex justify-between gap-40">
+                <img src="./images/firstScreenImage.png" alt="firstScreenImage">
+                <div class="rightPart flex-col">
+                    <p>Introducing Affiliate Template for Webflow</p>
+                    <h1>Easy-to-use Template for building Affiliate Sites </h1>
+                    <p class="textFirstScreen"><span>Affiliate</span> is a Webflow template made for entrepreneurs who
+                        want a professional and polished site ready to start and grow their affiliate marketing business
+                        in any niche.</p>
+                    <button class="btn btnGreen" type="button">Buy this Template
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="second">
+        <div class="container">
+            <h2>
+                Latest from the Blog
+            </h2>
+            <div class="flex justify-between gap-40">
+                <div class="blogLeftPart flex-col ">
+                    <img src="./images/blogBigImage.jpg" alt="blogBigImage">
+                    <h3>
+                        How to Prep Your Lawn in the Spring
+                    </h3>
+                    <p class="textBlog fontRaleway"> This is the blog description text. This is the blog description
+                        text. This is the blog description text.</p>
+                </div>
+                <div class="blogRightPart flex-col">
+                    <div class="card flex item-center">
+                        <img src="./images/blogImage1.jpg" alt="blogImage1">
+                        <p>Secrets to Know About Hedge Trimming</p>
+                    </div>
+                    <div class="card flex item-center ">
+                        <img src="./images/blogImage2.jpg" alt="blogImage2">
+                        <p>What to Do With a Dying Tree</p>
+                    </div>
+                    <div class="card flex item-center">
+                        <img src="./images/blogImage3.jpg" alt="blogImage3">
+                        <p>Which Flowers Should You Plant Garden</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="third">
+        <div class="container">
+            <div class="playButton flex item-center">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path d="M0 0H20V20H0V0Z" fill="url(#pattern0)" />
+                    <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_1_211" transform="translate(-0.002) scale(0.004)" />
+                        </pattern>
+                        <image id="image0_1_211" width="251" height="250"
+                            xlink:href="data:image/png;base64,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" />
+                    </defs>
+                </svg>
+                <a href="#">View All Blog Articles</a>
+            </div>
+            <div class="seeTheList flex item-center justify-between">
+                <div class="tool flex item-center">
+                    <img src="./images/tools.png" alt="tools">
+                    <p>View our list of the best products in lawncare.</p>
+                </div>
+                <button class="btn btnGreenSmall">
+                    See the list
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="fourth">
+        <div class="container">
+            <h2>Latest Product Reviews</h2>
+            <div class="flex gap-40">
+                <div class="reviewCard flex-col">
+                    <img src="./images/review1.jpg" alt="review1">
+                    <div class="reviewText">
+                        <h3>
+                            Lawnmower Xtreme
+                        </h3>
+                        <p>This is the Review Snippet. This is the Review Snippet. This is the Review Snippet. This is
+                            the Review Snippet.</p>
+                    </div>
+                    <button class="reviewBtn" type="button">Lawns</button>
+                </div>
+                <div class="reviewCard flex-col">
+                    <img src="./images/review2.jpg" alt="review1">
+                    <div class="reviewText">
+                        <h3>
+                            Ultra Grow Fertilizer
+                        </h3>
+                        <p>This is the Review Snippet. This is the Review Snippet. This is the Review Snippet. This is
+                            the Review Snippet..</p>
+                    </div>
+                    <button class="reviewBtn" type="button">Garden</button>
+                </div>
+                <div class="reviewCard flex-col">
+                    <img src="./images/review3.jpg" alt="review1">
+                    <div class="reviewText">
+                        <h3>
+                            Hedge Clippers
+                        </h3>
+                        <p>This is the Review Snippet. This is the Review Snippet. This is the Review Snippet. This is
+                            the Review Snippet.</p>
+                    </div>
+                    <button class="reviewBtn" type="button">Hedges</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fifth">
+        <div class="container">
+            <div class="playButton flex item-center">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path d="M0 0H20V20H0V0Z" fill="url(#pattern0)" />
+                    <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_1_211" transform="translate(-0.002) scale(0.004)" />
+                        </pattern>
+                        <image id="image0_1_211" width="251" height="250"
+                            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPsAAAD6CAYAAABnLjEDAAAACXBIWXMAAAsSAAALEgHS3X78AAAJBElEQVR4nO3dwXUURxrA8fI+3+UIRs5Ac50TZIAzgAwgAyACQwQrIliIADjpuEMEi5TAWhFoX1s1MAvSaDTq7vqq6vd7z88nm7bg7+qarm/6l6urqwS07x9+j6EPYodOiB06IXbohNihE2KHTogdOiF26ITYoRNih06IHTohdujErzX/Zy6Wq99TSsv8100+pZS+XqzPvpa9Uiivuqm3xXL1OKX0LKU0/P14z3/sPKX0PqV0erE+W098iRBSNbEvlqsh8Ff3CPw2X1JKby7WZ6fTXS3EEz72vJKfjhD5j4boX1yszz6N/O+FkMLGvliufssr+fOJf6kPOXr7epoWMvYc+rDinsz0S14Ot/b59v6vmX5NmFW4R2+L5Wo5c+iDo5TSy5TSOn82AM0JtbIXWNFv8znf2vvknmZEi30dIPRt73L0bu2pXpjb+MVy9SZY6IOnw6GcxXL1KsC1wIOEWNnz47WPxS9kt/O8yr+PfJFwmyixD/v0R8UvZD/Dfv6ZR3XUpnjslazqN3k7nAOwn6cWEfbste6Hn+f9/IsA1wJ3Krqy56m1/zTw23Seb+0dvSWs0iv7H4F/NvcxnNv/uFiu3uf/gUE4pWN/HPBn8hBPhjuV4VFdPiAEYYh9Gi/zft7RW8IotmfPK99/O/ijYJSWEEqu7Ld9lVRrTvJ+/tR+npJ84eR8nuapOvt5ihD7vLZHaVt5EkElxF7G8KjuX8Mx4Ty/D5MTe1nDPMC/837erT2TEnsMRmmZnNjj+Hs/v1iuvubhIBiV2OPZHL395FEdYxJ7XI/y0ds39vOMQezxGaVlFGKvw7Cf/3P4Qk77eQ4l9rqcGKXlUGKvk1Fa7k3sdfMWG/Ym9voNj+r+mR/V2c9zK7G345FRWnYRe3u+jdL2/oPg/4m9TdtHb43S8jext80oLd+IvQ9GaRF7Z546etsvsfdnc/TWKG1nxN4vo7SdETtGaTshdjaee4tN28TOtqN89NYobYPEzk2M0jZI7OzyxFts2iF27nJklLYNYmdfRmkrJ3bua3uU1q19RcTOobzFpjJi5yGM0lZE7IzBKG0FxM6YNqO0jt4GJHam4C02AYmdqRilDUbsTM0obRBiZy6PvMWmLLEzt5dGacsQOyUYpS1A7JR04i028xE7ETw1Sjs9sROFUdqJiZ1otkdpHb0dkdiJyltsRiZ2ojNKOxKxUwOjtCMQOzXZHqX1qO6exE6NvMXmAGKnZkZp70Hs1M4o7Z7ETiuOvcVmN7HTmidGaW8mdlpllPYHYqdlR95i853Y6cH2W2y63c+LnZ50PUordnqzPUrb1dFbsdOr7t5iI3Z6180ordjhWvOjtGKH77ZHaZt7VCd2+FmTb7ERO9yuqVFascPdnrdw9FbssJ/q32Ijdrifk1pHacUOh6lulFbs8DDVvMVG7PBwxzWM0oodxhN6lFbsML5vo7SRfrZih2mEe4uN2GFaYUZpxQ7z2IzSFru1FzvM62U+hTf7s3mxw/xO8gd4s97Wix3KGPbys47Qih3KGT6xfz/XLb3Yoazhlv50jisQO5T3ZI5n8WKHGCb/NhyxQwzDB3YvprwSsUMck47Jih3iOJ5y7y52iEXs0AmxQyeOpjpGK3aIZ5IjtGKHeKzswOHEDp0QO3RC7NAJsUMnxA7xrKe4IrFDPF+nuCKxQyyXF+szKzt04P1U/4lih1jEDh04v1ifiR06MOm3zIodYjgfvnRyyisRO8Tw4mJ99teUVyJ2KO/DlHv1DbFDWV+m/lbZDbFDOZfDd85Nffu+IXYoY/hA7vHF+mySo7E3+dVvNMzuSw59lhV9Q+wwr9cX67NXJX7mYod5fM6P1yYZctmH2GFa5znyyR+t3UXsMI3hk/Y3pW7ZbyJ2GN+7lNKrOT9p34fYYTyfc+SfIv5MxQ4Pd54jn3Rq7aHEDg/zOu/NZ31mfgixw2E+5E/ZQ+3LdxE73M+XHHnIffkuYof9XObIQ+/LdzEIA3d7O7wzvebQk5UddhoepT2raV++i9jhZ+c58ur25buIHb4Ld8R1TGKHa+/m+NLHksRO74qPns5F7PQqzOjpXMROby7zyxiqOOI6JrHTk5Cjp3MROz0IPXo6F7HTsuqPuI7JcVla9bqFI65jsrLTmupGT+cidlrR5BHXMYmd2l3mD98mfbd5C+zZqdlm9FToe7CyU6OmRk/nInZq0t0R1zGJnRo0PXo6F7ETXfOjp3MRO1F1M3o6F7ETTRVvV6mR2Imi29HTuYidCLoePZ2L2Cmp2rer1EjslGD0tADHZZmb0dNCrOzMxRHXwsTO1IyeBiF2pmL0NBh7dqZg9DQgKztjcsQ1MLEzBqOnFRA7D2H0tCJi51BGTysjdu7L21UqJXb2ZfS0cmLnLkZPGyF2dvF2lYaInZsYPW2Q2Nlm9LRhjsuy8dboadus7Bg97YTY+2X0tDNi74/R006JvS+OuHZM7H0weorYG2f0lG/E3iajp/xE7O3xdhVuJPZ2GD1lJ7HXz+gpexF73V4bPWVfYq+T0VPuTex1MXrKwcReB0dceTAjrvF5uwqjsLLHZfSUUYk9HqOnTELscTjiyqTEHoPRUyYn9rKMnjIbsZdh9JTZiX1e3q5CMWKfj9FTiioZey/7VEdcCeGXq6urYtexWK6GW9mjRv8oeLsKoZQ+Ltvqavfa21WIpvSefYj9Sbwfy8GMnhJW6diHR09/Bv757MsRV8IrumdP1/v2IZBHlf5RMXpKNSKMuNZ6FtzoKVUpvrKn+lZ3o6dUKcqhmmF1/xjgOnZxxJWqhVjZ0/XqPtwOPw9wKT8yekoTwsSeroMfTtWdBLiUDaOnNCPa2fjH+dl76eCNntKcUCt7ul7dlyml00LBe7sKzQoXe7oO/reZV3ijpzQvZOzpe/CvZvjQzhFXuhA29o3FcvU439Yfj/yvNnpKV8LHvrFYrp7llf6h0X/Jt+v25XSlmtg38kr/LH9yv2/453no5tQn7PSquti3LZar31NKy/zXTYZb9K/241B57MD+vNgROiF26ITYoRNih06IHTohduiE2KETYodOiB06IXbohNihE2KHHqSU/gdOwW21RCt2kgAAAABJRU5ErkJggg==" />
+                    </defs>
+                </svg>
+
+                <a href="#">View all Product Reviews</a>
+            </div>
+            <div class="newsLetter flex justify-between">
+                <img src="./images/newsLetterImage.png" alt="newsLetter">
+                <div class="flex-col">
+                    <div class="imageLetter flex item-center">
+                        <div class="letterWhite flex justify-center">
+                            <img src="./images/letterWhite.png" alt="letter">
+                        </div>
+                        <h3>
+                            Newsletter Signup
+                        </h3>
+                    </div>
+                    <p class="textSignUp">
+                        Be the first to receive updates on articles, product reviews, courses, and more!
+                    </p>
+                    <form>
+                        <input class="formSignUp" type="email" placeholder="Your email"> <br>
+                        <button class="btn btnYellow" type="submit">Submit</button>
+                        <a href="#" class="privatePolicy">Privacy Policy</a>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <footer>
+            <div class="container">
+                <div class="flex justify-between gap-40">
+                    <div class="footerLeft flex flex-col">
+                        <img class="logo" src="./images/logo.png" alt="logo">
+                        <div class="socialNet flex">
+                            <a href="#"><img src="./svg/FB.svg" alt="FB"></a>
+                            <a href="#"><img src="./svg/twitter.svg" alt="twitter"></a>
+                            <a href="#"><img src="./svg/insta.svg" alt="instagram"></a>
+                        </div>
+                        <p class="text"> <span>Affiliate</span> is a Webflow template made for entrepreneurs who want a
+                            professional
+                            and polished site
+                            ready to start and grow their affiliate marketing business in any niche.</p>
+                    </div>
+                    <div class="footerMiddle flex-col ">
+                        <h3 class="h3">
+                            Latest Articles
+                        </h3>
+                        <div class="footerCard flex">
+                            <img src="./images/blogBigImage.jpg" alt="blog">
+                            <p>How to Prep Your Lawn in the Spring</p>
+                        </div>
+                        <div class="footerCard flex">
+                            <img src="./images/blogImage1.jpg" alt="blog1">
+                            <p>Secrets to Know About Hedge Trimming</p>
+                        </div>
+                        <div class="footerCard flex">
+                            <img src="./images/blogImage2.jpg" alt="blog2">
+                            <p>What to Do With a Dying Tree</p>
+                        </div>
+                    </div>
+                    <div class="footerRigth flex-col">
+                        <h3 class="h3">Browse </h3>
+                        <form class="flex">
+                            <input class="footerForm" type="text">
+                            <button class="btnGrey" type="submit">Search</button>
+
+                        </form>
+                        <ul class="footerList">
+                            <li>About</li>
+                            <li>Categories</li>
+                            <li>Tools</li>
+                            <li>Contact</li>
+                            <li>Privacy Policy</li>
+                            <li>Affiliate Disclosure</li>
+                        </ul>
+                        <p class="textBrand">©2022 Your Brand Name</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="footerLink flex justify-between gap-7">
+                    <a href="#">Style Guide</a>
+                    <a href="#">Licenses</a>
+                    <a class="flex-1" href="#">Changelog</a>
+                    <a href="#">Powered by</a>
+                    <a href="#">Webflow</a>
+                    <a href="#">Designed by</a>
+                    <a href="#">Kevin Barrett</a>
+                </div>
+            </div>
+        </footer>
+    </section>
+    </body>
 
 </html>
