@@ -1,3 +1,31 @@
+@import url('./global.css');
+
+.flex {
+    display:flex;
+}
+
+.flex-1 {
+    flex:1;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+
+.gap-40 {
+    gap:40px;
+}
 .gap-7 {
     gap: 7px;
 }
@@ -263,6 +291,7 @@ footer {
 p.text > span {
        font-weight: 700;
 }
+
 .h3 {
     padding-bottom: 12px;
     color:#333333;
@@ -336,3 +365,4 @@ li+li {
     font-size: 12px;
     line-height: 20px;
 }
+
