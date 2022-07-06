@@ -263,3 +263,76 @@ footer {
 p.text > span {
        font-weight: 700;
 }
+.h3 {
+    padding-bottom: 12px;
+    color:#333333;
+}
+
+
+footer img {
+    max-width: 139px; 
+    border-radius: 7px;
+}
+
+.footerCard {
+    gap: 10px;
+    align-items: center;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.footerCard +.footerCard {
+    margin-top: 20px;
+}
+
+.footerRigth {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.footerForm {
+    width: 274px;
+    height: 48px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #AABCC5;
+    border-right: none;
+}
+
+.btnGrey {
+    width: 81px;
+    height: 48px;
+    color:#ffffff;
+    border-radius:  0px 5px 5px 0px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #768F9C;
+    border-color: #AABCC5;
+    border-left: none;
+    border-right: none;
+}
+
+.footerList {
+    padding-top: 20px;
+    padding-bottom: 27px;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--text-color);
+}
+
+li+li {
+    padding-top: 5px;
+}
+.textBrand{
+    padding-top: 20px;
+    margin-bottom: 126px;  
+    border-top: 1px solid #536D7A;
+}
+
+.footerLink{
+    padding-top: 22px;
+    padding-bottom: 20px;
+    border-top: 1px solid #536D7A; 
+    font-size: 12px;
+    line-height: 20px;
+}
